@@ -8,7 +8,7 @@
   }
   
   .task-return__container a {
-    color: rgb(0, 255, 64);
+    color: rgb(222, 224, 223);
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -55,12 +55,12 @@
   .switcher__container button:disabled:hover {
     opacity: 0.1;
     background-color: darkgreen;
-    color: lime;
+    color: rgb(230, 235, 230);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .switcher__container button:enabled {
-    background-color: lime;
+    background-color: rgb(234, 240, 234);
     color: #000000;
   }
   
@@ -127,7 +127,7 @@
     padding: 5px;
     font-size: 18px;
     outline: none;
-    border: lime solid 1px;
+    border: rgb(245, 248, 245) solid 1px;
     border-radius: 5px;
     color: #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -153,12 +153,12 @@
   .date__container button:disabled:hover {
     opacity: 0.1;
     background-color: darkgreen;
-    color: lime;
+    color: rgb(234, 240, 234);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .date__container button:enabled {
-    background-color: lime;
+    background-color: rgb(236, 238, 236);
     color: #000000;
   }
   
@@ -215,7 +215,7 @@
     padding: 5px;
     font-size: 18px;
     outline: none;
-    border: lime solid 1px;
+    border: rgb(239, 243, 239) solid 1px;
     border-radius: 5px;
     color: #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -243,12 +243,12 @@
   .form button:disabled:hover {
     opacity: 0.1;
     background-color: darkgreen;
-    color: lime;
+    color: rgb(214, 218, 214);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .form button:enabled {
-    background-color: lime;
+    background-color: rgb(231, 235, 231);
     color: #000000;
   }
   
