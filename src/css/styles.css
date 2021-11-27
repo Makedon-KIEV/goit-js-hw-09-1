@@ -1,0 +1,264 @@
+.task-return__container {
+    background-color: #000000;
+    max-width: 100px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px;
+    margin: 10px auto 50px;
+  }
+  
+  .task-return__container a {
+    color: rgb(0, 255, 64);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .task-return__container a:hover,
+  .task-return__container a:focus {
+    color: #ffffff;
+  }
+  
+  @media screen and (min-width: 280px) {
+    .task-return__container {
+      margin: 0 0 50px;
+    }
+  }
+  
+  /* TASK 01 */
+  
+  .switcher__container {
+    max-width: 280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .switcher__container button {
+    border: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 32px;
+    border-radius: 5px;
+    width: 135px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .switcher__container button:first-child {
+    margin-bottom: 10px;
+  }
+  
+  .switcher__container button:disabled,
+  .switcher__container button:disabled:hover {
+    opacity: 0.1;
+    background-color: darkgreen;
+    color: lime;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .switcher__container button:enabled {
+    background-color: lime;
+    color: #000000;
+  }
+  
+  .switcher__container button:hover,
+  .switcher__container button:focus {
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .switcher__container button:active {
+    transform: scale(0.95);
+    box-shadow: none;
+  }
+  
+  @media screen and (min-width: 280px) {
+    .switcher__container {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .switcher__container button:first-child {
+      margin-right: 10px;
+      margin-bottom: 0;
+    }
+  }
+  
+  /* TASK 02 */
+  
+  .timer {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .value {
+    font-size: 24px;
+    line-height: 1.1;
+  }
+  
+  .label {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .date__container {
+    max-width: 320px;
+    margin: 0 auto 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .date__container input {
+    margin-bottom: 12px;
+    padding: 5px;
+    font-size: 18px;
+    outline: none;
+    border: lime solid 1px;
+    border-radius: 5px;
+    color: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .date__container button {
+    border: none;
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .date__container button:first-child {
+    margin-bottom: 10px;
+  }
+  
+  .date__container button:disabled,
+  .date__container button:disabled:hover {
+    opacity: 0.1;
+    background-color: darkgreen;
+    color: lime;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .date__container button:enabled {
+    background-color: lime;
+    color: #000000;
+  }
+  
+  .date__container button:hover,
+  .date__container button:focus {
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .date__container button:active {
+    transform: scale(0.95);
+    box-shadow: none;
+  }
+  
+  @media screen and (min-width: 280px) {
+    .timer {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .field:not(:last-child) {
+      margin-right: 12px;
+    }
+  }
+  
+  @media screen and (min-width: 320px) {
+    .value {
+      font-size: 36px;
+    }
+  
+    .label {
+      font-size: 18px;
+    }
+  
+    .date__container {
+      flex-direction: row;
+    }
+  
+    .date__container input {
+      margin-right: 12px;
+      margin-bottom: 0;
+    }
+  }
+  
+  /* TASK 03 */
+  
+  .form {
+    width: 240px;
+    margin: 0 auto;
+  }
+  
+  .form input {
+    margin-bottom: 12px;
+    padding: 5px;
+    font-size: 18px;
+    outline: none;
+    border: lime solid 1px;
+    border-radius: 5px;
+    color: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .button_container {
+    width: 240px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form button {
+    border: none;
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .form button:disabled,
+  .form button:disabled:hover {
+    opacity: 0.1;
+    background-color: darkgreen;
+    color: lime;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .form button:enabled {
+    background-color: lime;
+    color: #000000;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .form button:active {
+    transform: scale(0.95);
+    box-shadow: none;
+  }
